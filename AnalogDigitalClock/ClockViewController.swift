@@ -93,6 +93,7 @@ class ClockViewController: UIViewController {
         let hoursAngle = (Float(components.hour!) / 12.0) * Float.pi * 2.0
         let minutesAngle = (Float(components.minute!) / 60.0) * Float.pi * 2.0
         let secondsAngle = (Float(components.second!) / 60.0) * Float.pi * 2.0
+        
         if currentMinute != Float(components.minute!) {
             progressBar.setProgressWithAnimation(duration: 3, value: (Float(components.minute!) / 60.0))
         }
@@ -117,9 +118,7 @@ class ClockViewController: UIViewController {
     }
     
     private func setDigit(digit: Int, forView view: UIView) {
-        
         view.layer.contentsRect = CGRect(x: CGFloat(digit) * 0.1, y: 0, width: 0.1, height: 1.0)
-        
     }
     
     
