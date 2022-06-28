@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		D403AF5B286B334E008D5FF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403AF5A286B334E008D5FF9 /* AppDelegate.swift */; };
 		D403AF5D286B334E008D5FF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403AF5C286B334E008D5FF9 /* SceneDelegate.swift */; };
-		D403AF5F286B334E008D5FF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403AF5E286B334E008D5FF9 /* ViewController.swift */; };
+		D403AF5F286B334E008D5FF9 /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403AF5E286B334E008D5FF9 /* ClockViewController.swift */; };
 		D403AF62286B334E008D5FF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D403AF60286B334E008D5FF9 /* Main.storyboard */; };
 		D403AF64286B3350008D5FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D403AF63286B3350008D5FF9 /* Assets.xcassets */; };
 		D403AF67286B3350008D5FF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D403AF65286B3350008D5FF9 /* LaunchScreen.storyboard */; };
+		D403AF6F286B3371008D5FF9 /* NeumorphicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403AF6E286B3371008D5FF9 /* NeumorphicView.swift */; };
+		D403AF71286B41FD008D5FF9 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403AF70286B41FD008D5FF9 /* CircularProgressBar.swift */; };
+		D403AF73286B427B008D5FF9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403AF72286B427B008D5FF9 /* UIColor+Extension.swift */; };
+		D403AF75286B670D008D5FF9 /* UIView+Extensons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403AF74286B670D008D5FF9 /* UIView+Extensons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D403AF57286B334E008D5FF9 /* AnalogDigitalClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnalogDigitalClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D403AF5A286B334E008D5FF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D403AF5C286B334E008D5FF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D403AF5E286B334E008D5FF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D403AF5E286B334E008D5FF9 /* ClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
 		D403AF61286B334E008D5FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D403AF63286B3350008D5FF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D403AF66286B3350008D5FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D403AF68286B3350008D5FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D403AF6E286B3371008D5FF9 /* NeumorphicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicView.swift; sourceTree = "<group>"; };
+		D403AF70286B41FD008D5FF9 /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		D403AF72286B427B008D5FF9 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		D403AF74286B670D008D5FF9 /* UIView+Extensons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensons.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				D403AF5A286B334E008D5FF9 /* AppDelegate.swift */,
 				D403AF5C286B334E008D5FF9 /* SceneDelegate.swift */,
-				D403AF5E286B334E008D5FF9 /* ViewController.swift */,
+				D403AF6E286B3371008D5FF9 /* NeumorphicView.swift */,
+				D403AF5E286B334E008D5FF9 /* ClockViewController.swift */,
 				D403AF60286B334E008D5FF9 /* Main.storyboard */,
 				D403AF63286B3350008D5FF9 /* Assets.xcassets */,
 				D403AF65286B3350008D5FF9 /* LaunchScreen.storyboard */,
 				D403AF68286B3350008D5FF9 /* Info.plist */,
+				D403AF70286B41FD008D5FF9 /* CircularProgressBar.swift */,
+				D403AF72286B427B008D5FF9 /* UIColor+Extension.swift */,
+				D403AF74286B670D008D5FF9 /* UIView+Extensons.swift */,
 			);
 			path = AnalogDigitalClock;
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D403AF5F286B334E008D5FF9 /* ViewController.swift in Sources */,
+				D403AF6F286B3371008D5FF9 /* NeumorphicView.swift in Sources */,
+				D403AF5F286B334E008D5FF9 /* ClockViewController.swift in Sources */,
+				D403AF75286B670D008D5FF9 /* UIView+Extensons.swift in Sources */,
 				D403AF5B286B334E008D5FF9 /* AppDelegate.swift in Sources */,
+				D403AF73286B427B008D5FF9 /* UIColor+Extension.swift in Sources */,
 				D403AF5D286B334E008D5FF9 /* SceneDelegate.swift in Sources */,
+				D403AF71286B41FD008D5FF9 /* CircularProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
