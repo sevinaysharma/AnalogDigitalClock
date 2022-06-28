@@ -66,13 +66,13 @@
 			children = (
 				D403AF5A286B334E008D5FF9 /* AppDelegate.swift */,
 				D403AF5C286B334E008D5FF9 /* SceneDelegate.swift */,
+				D403AF77286B749D008D5FF9 /* CustomViews */,
+				D403AF76286B7478008D5FF9 /* Extensions */,
 				D403AF5E286B334E008D5FF9 /* ClockViewController.swift */,
 				D403AF60286B334E008D5FF9 /* Main.storyboard */,
 				D403AF63286B3350008D5FF9 /* Assets.xcassets */,
 				D403AF65286B3350008D5FF9 /* LaunchScreen.storyboard */,
 				D403AF68286B3350008D5FF9 /* Info.plist */,
-				D403AF77286B749D008D5FF9 /* CustomViews */,
-				D403AF76286B7478008D5FF9 /* Extensions */,
 			);
 			path = AnalogDigitalClock;
 			sourceTree = "<group>";
