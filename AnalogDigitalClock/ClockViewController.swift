@@ -30,7 +30,8 @@ class ClockViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    func typingAnimation(text: String, characterDelay: TimeInterval = 20.0) {
+    //typing animation
+    func typingAnimation(text: String, characterDelay: TimeInterval = 14.0) {
       quoteLabel.text = ""
         
       let writingAnimation = DispatchWorkItem { [weak self] in
