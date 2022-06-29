@@ -25,8 +25,10 @@ class ClockViewController: UIViewController {
         setupAnalogClock()
         setupDigitalClock()
         Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(self.update), userInfo: nil, repeats: true)
-        typingAnimation(text: "Time takes it all,\nwhether you want it to or not.")
         centerGlowView.doGlowAnimation(withColor: .blue, withEffect: .normal)
+        self.view.addTapGesture {
+            self.typingAnimation(text: "Time takes it all,\nwhether you want it to or not.")
+        }
         // Do any additional setup after loading the view.
     }
     
